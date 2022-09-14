@@ -325,3 +325,32 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+#contact-me {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  align-self: center;
+}
+
+#contact-me h2 {
+  color: #172B4D;
+}
+
+#contact-me form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-me form * {
+  margin: 15px;
+}
+
+#contact-me form button {
+  background-color: orangered;
+}
+
+.contact-me-field {
+  border: none;
+  border-bottom: 1px solid grey;
+}
