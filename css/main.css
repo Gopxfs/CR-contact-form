@@ -335,6 +335,7 @@ li {
 
 #contact-me h2 {
   color: #172b4d;
+  text-align: center;
 }
 
 #contact-me form {
@@ -347,10 +348,19 @@ li {
 }
 
 #contact-me form button {
-  background-color: orangered;
+  color: #fff;
+  background-color: #ff7b00;
+  border: 0;
+  padding: 15px;
+  width: 131px
 }
 
 .contact-me-field {
   border: none;
   border-bottom: 1px solid grey;
+  padding: 8px;
+}
+
+#contact-me-message {
+  padding: 8px;
 }
